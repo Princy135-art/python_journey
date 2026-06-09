@@ -1,19 +1,27 @@
 import numpy as np
 import pandas as pd
-students= {
-    "Amy":[85, 90, 68, 78, 89],
-    "Ajay": [89, 90, 93, 92, 85],
-    "Dev":[78, 87, 89, 98, 78],
-    "Emma": [89,88,87,86,89],
-    "OM":[78,87,89,98,67]
-}
+
 #calculate total marks
 def calculate_total(marks):
     return sum(marks)
 #calculate average markks
 def calculate_average(marks):
     return sum(marks)/len(marks)
-highest_average = -1
+students={}
+
+num_students= int(input("enter number of students:"))
+for i in range(num_students):
+    print(
+
+        f"\n students{i+1}"
+    )
+    name= input("Enter student name:")
+    subject1= int(input("enter subject1 marks:"))
+    subject2= int(input("enter subject2 marks:"))
+    students[name]= [subject1, subject2]
+highest_student=""
+lowest_student=""
+ighest_average = -1
 lowest_average= 101
 averages= []
 data=[]
@@ -25,9 +33,6 @@ for name, marks in students.items():
         name,
         marks[0],
         marks[1],
-        marks[2],
-        marks[3],
-        marks[4],
         total,
         round(average, 2)
     ])
@@ -44,9 +49,6 @@ df= pd.DataFrame(
         "Name",
         "Subject1",
         "subject2",
-        "subject3",
-        "subject4",
-        "subject5",
         "total",
         "average"
     ]
