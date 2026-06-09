@@ -21,7 +21,7 @@ for i in range(num_students):
     students[name]= [subject1, subject2]
 highest_student=""
 lowest_student=""
-ighest_average = -1
+highest_average = -1
 lowest_average= 101
 averages= []
 data=[]
