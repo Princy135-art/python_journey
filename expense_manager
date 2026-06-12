@@ -1,0 +1,21 @@
+import pandas as pd
+expense=[]
+total=0
+num_expense=int(input("enter number of expense:"))
+for i in range(num_expense):
+    print(f"\nexpenses{i+1}")
+
+    name= input("enter expense name:")
+    amount= int(input("enter amount spent:"))
+    expense.append([name, amount])
+    total+=amount
+df= pd.DataFrame(
+    expense,
+    columns=[
+        "Expense Name",
+        "Amount",
+    ]
+)
+print("\nExpense Data:")
+print(df)
+print("\nTotal expense:", total)
