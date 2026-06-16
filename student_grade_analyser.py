@@ -2,6 +2,15 @@ import pandas as pd
 import numpy as np
 def calculate_average(marks):
     return sum(marks)/len(marks)
+def calculate_grade(average):
+    if average >= 90:
+        return "A"
+    elif average >= 75:
+        return "B"
+    elif average >= 50:
+        return "C"
+    else:
+        return "F"
 students={}
 num_students=int(input("enter number of students:"))
 for i in range(num_students):
@@ -23,6 +32,7 @@ averages=[]
 data=[]
 for name, marks in students.items():
     average=calculate_average(marks)
+    grade=calculate_grade(average)
     averages.append(average)
     data.append([
         name,
@@ -31,7 +41,8 @@ for name, marks in students.items():
         marks[2],
         marks[3],
         marks[4],
-        round(average,2)
+        round(average,2),
+        grade
     ])
     print(f"{name:<10} average:{average:.2f}")
     if average> highest_average:
@@ -49,7 +60,8 @@ df= pd.DataFrame(
         "subjet3",
         "subject4",
         "subject5",
-        "average"
+        "average",
+        "grade"
     ]
 )
 print("\nDATAFRAME")
