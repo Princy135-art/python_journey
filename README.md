@@ -14,6 +14,7 @@ This repository contains my learning journey in:
 - Pandas Filtering
 - GroupBy
 ## Practice Tasks
+- Pattern Problems
 - Student Result Analyzer
     - used variables, loops, functions, pandas and numpy
 ## Current Goal
