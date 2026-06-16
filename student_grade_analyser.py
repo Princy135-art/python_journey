@@ -1,3 +1,9 @@
+# 1. Create storage
+# 2. Create functions
+# 3. Show menu
+# 4. Take user input
+# 5. Call correct function
+# 6. Repeat until exit
 import pandas as pd
 import numpy as np
 def calculate_average(marks):
