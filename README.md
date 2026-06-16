@@ -17,5 +17,7 @@ This repository contains my learning journey in:
 - Pattern Problems
 - Student Result Analyzer
     - used variables, loops, functions, pandas and numpy
+- Student Grade Analyzer
+   - used variables, loops, functions, pandas, numpy
 ## Current Goal
 Learn data analysis and build real-world projects.
