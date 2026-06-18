@@ -20,5 +20,8 @@ This repository contains my learning journey in:
     - used variables, loops, functions, pandas and numpy
 - Student Grade Analyzer
    - used variables, loops, functions, pandas, numpy
+## Project
+- Vehicle rental system
+   - used oops and fundamentals
 ## Current Goal
 Learn data analysis and build real-world projects.
