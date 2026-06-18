@@ -13,6 +13,7 @@ This repository contains my learning journey in:
 - Functions
 - Pandas Filtering
 - GroupBy
+- OOPS
 ## Practice Tasks
 - Pattern Problems
 - Student Result Analyzer
