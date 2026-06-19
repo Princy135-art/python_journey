@@ -23,5 +23,9 @@ This repository contains my learning journey in:
 ## Project
 - Vehicle rental system
    - used oops and fundamentals
+- Online learning platform
+    - used oops and multilevel inheritance
+- Smart hospital management system
+    - used oops and multilevel and hybrid inheritance
 ## Current Goal
 Learn data analysis and build real-world projects.
