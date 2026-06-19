@@ -27,5 +27,7 @@ This repository contains my learning journey in:
     - used oops and multilevel inheritance
 - Smart hospital management system
     - used oops and multilevel and hybrid inheritance
+- University management system
+    - used oops, inheritance(simple,multilevel, hybrid) and file handling
 ## Current Goal
 Learn data analysis and build real-world projects.
