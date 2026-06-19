@@ -1,5 +1,5 @@
 # Python Journey
-This repository contains my learning journey in:
+This repository will contain my learning journey in:
 - Python Basics
 - NumPy
 - Pandas
