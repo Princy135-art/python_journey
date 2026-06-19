@@ -19,7 +19,7 @@ class doctor(person):
     def display_doctor_info(self):
         super().display_person_info()
         print(f"specialization:{self.specialization}")
-        print(f"alary:{self.salary}")
+        print(f"salary:{self.salary}")
 class patient(person):
     def __init__(self,person_id,name,age,disease,treatment_cost):
         super().__init__(person_id,name,age)
